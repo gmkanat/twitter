@@ -172,7 +172,7 @@ max-width: 600px;
     margin: 12px;
     max-width: 600px;
 }
-.puntos{
+.points{
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -183,7 +183,7 @@ max-width: 600px;
     align-items: star;  
     margin-right: 8px;          
 }
-.puntos p{
+.points p{
     margin: 0;
     font-size: 2.0rem;
     font-weight: bold;
@@ -196,7 +196,7 @@ max-width: 600px;
     height: 30px;
     border-radius: 20px;
 }
-.puntos:hover{
+.points:hover{
     cursor:pointer;
     background: var(--marco-gris);
 }
@@ -304,27 +304,27 @@ max-width: 600px;
     width: 48px;
     border-radius: 50%;
 } 
-.cuerpo-tweet{
+.bodys-tweet{
     position: absolute;
     top: 10px;
     left: 60px;
 }
-.nombre-tweet{
+.names-tweet{
     display: flex;
     margin-left: 0;
     justify-content: start;
     align-items: center;
 }
-.nombre-tweet p:nth-child(1),
-.nombre-tweet p:nth-child(2){
+.names-tweet p:nth-child(1),
+.names-tweet p:nth-child(2){
     font-size: 1.2rem;
 }
-.cuerpo-tweet .puntos-small{
+.bodys-tweet .points-small{
     border: none;
     width: 34px;
 }
 
-.texto{
+.text{
     font-size: 1.2rem;
 }
 .video{
@@ -477,11 +477,11 @@ max-width: 600px;
         left: 0;
     } 
     
-    /*Nombre*/
-    .container-nombre{
+    /*Names*/
+    .container-names{
         width: 590px;
     }
-    .container-nombre .nombre-profile p:nth-child(1),
+    .container-names .names-profile p:nth-child(1),
     .item-menu:nth-child(3),
     .item-menu:nth-child(7),
     .item-menu:nth-child(8),
@@ -489,11 +489,11 @@ max-width: 600px;
     .item-menu:nth-child(10){
         display: block;
     }
-    .nombre-profile p:nth-child(2){
+    .names-profile p:nth-child(2){
         display: none;
     }
     /*Imagen principal*/
-    .foto-secundaria{
+    .foto-sec{
         left: 10px;
         top: 120px;
     }
@@ -525,9 +525,9 @@ max-width: 600px;
     .first-tweet{
         margin-bottom: 80%;        
     }
-    .nombre-tweet p:nth-child(1),
-    .nombre-tweet p:nth-child(2), 
-    .texto{
+    .names-tweet p:nth-child(1),
+    .names-tweet p:nth-child(2), 
+    .text{
         font-size: 1.4rem;
     }
     .video{
@@ -573,7 +573,7 @@ max-width: 600px;
     .container-logo{
         padding-left: 30px;
     }
-    .container-nombre .nombre-profile p:nth-child(1){
+    .container-names .names-profile p:nth-child(1){
         font-size: 2.1rem;
     }
 
