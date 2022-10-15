@@ -55,7 +55,7 @@ max-width: 600px;
 .container-logo img{
     width: 35px;
 }
-/* .item-menu{
+.item-menu{
     display: flex;
     justify-content: start;
     align-items: center;
@@ -63,7 +63,8 @@ max-width: 600px;
     width: 150px;
     height: 50px;            
     padding: 0 10px;
-} */
+    cursor: pointer;
+} 
 .item-menu:nth-child(3),
 .item-menu:nth-child(7),
 .item-menu:nth-child(8),
@@ -72,8 +73,8 @@ max-width: 600px;
     display: none;   
 }
 
-.item-menu img{
-    width: 30px;    
+.item-menu svg{
+    margin: 12px;    
 }
 .item-menu p{
     display: none;
