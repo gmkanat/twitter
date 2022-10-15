@@ -50,6 +50,7 @@ max-width: 600px;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .container-logo img{
@@ -278,11 +279,13 @@ max-width: 600px;
     justify-content: center;
     width: 100%;
     color: #0F1419;
+    cursor: pointer;
 }
 .tweets,.media,.likes{
     display: flex;
     justify-content: center;
     width: 100%;
+    cursor: pointer;
 }
 .tweet:hover,.tweets:hover,.media:hover,.likes:hover  {
     background: var(--marco-gris);
