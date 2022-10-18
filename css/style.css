@@ -22,6 +22,53 @@ body{
     
 }
 
+/* Home */
+.hme, .not {
+    width: 40%;
+    height: 53px;
+    display:flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    font-weight: 600;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.687);
+    z-index: 1;
+}
+
+.ssdf {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ssdf a, .ssdf a:visited, .ssdf a:hover {
+    text-decoration: none;
+    color: black
+}
+
+.ssdf div{
+    background-color: rgb(26, 155, 240);
+    width: 56px;
+    height: 4px;
+    border-radius: 9999px;
+}
+
+.homed {
+    margin-top: 53px;
+}
+
+.homed img {
+    width: 99.9%;
+}
+
+.pust {
+    margin-top: 500px;
+}
+
 /* izquierda */
 .profile-left{
 width: 100%;
